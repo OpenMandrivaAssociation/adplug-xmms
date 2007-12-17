@@ -10,7 +10,6 @@ Source0: http://prdownloads.sourceforge.net/adplug/%{name}-%{version}.tar.bz2
 URL: http://adplug.sourceforge.net/
 License: LGPL
 Group: Sound
-BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
 BuildRequires: automake1.8
 BuildRequires: libxmms-devel
