@@ -1,6 +1,6 @@
 %define name adplug-xmms
 %define version 1.2
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: AdLib player plugin for XMMS
 Name: %{name}
