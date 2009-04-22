@@ -7,8 +7,9 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://prdownloads.sourceforge.net/adplug/%{name}-%{version}.tar.bz2
+Patch: adplug-xmms-1.2-missing-header.patch
 URL: http://adplug.sourceforge.net/
-License: LGPL
+License: LGPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
@@ -25,7 +26,9 @@ No OPL2 chip is required for playback.
 
 %prep
 %setup -q
+%patch -p1
 touch *
+libtoolize --install --force
 aclocal-1.8
 autoconf
 automake-1.8
