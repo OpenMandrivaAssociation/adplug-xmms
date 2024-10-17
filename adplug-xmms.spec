@@ -8,7 +8,7 @@ Version: %{version}
 Release: %{release}
 Source0: http://prdownloads.sourceforge.net/adplug/%{name}-%{version}.tar.bz2
 Patch: adplug-xmms-1.2-missing-header.patch
-URL: http://adplug.sourceforge.net/
+URL: https://adplug.sourceforge.net/
 License: LGPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
