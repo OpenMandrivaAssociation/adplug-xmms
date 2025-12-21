@@ -13,6 +13,9 @@ License: LGPLv2+
 Group: Sound
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Requires: xmms
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: automake1.8
 BuildRequires: libxmms-devel
 BuildRequires: libadplug-devel >= 1.4 
